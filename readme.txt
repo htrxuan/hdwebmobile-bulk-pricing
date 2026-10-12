@@ -16,8 +16,8 @@ Quantity-tiered discounts for any product. Rule labels are always escaped at out
 
 HDWebmobile Bulk Pricing gives every customer a percentage off when they buy enough of the same product -- "Buy 3 or more and save 10%", "Buy 10 or more and save 20%". Tiers apply store-wide; any individual product can opt out from its own Product data panel.
 
-= Why this plugin exists =
-"Quantity Dynamic Pricing & Bulk Discounts for WooCommerce" (versions up to and including 4.0.3) shipped CVE-2025-31598: a stored Cross-Site Scripting vulnerability where a saved rule's text was later rendered to storefront visitors without escaping.
+= Security by design =
+A common weakness in pricing-rule tools is stored Cross-Site Scripting: a saved rule's text is later rendered to storefront visitors without escaping.
 
 This plugin is built so that mistake has nowhere to happen:
 
