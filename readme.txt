@@ -37,6 +37,9 @@ This plugin is built so that mistake has nowhere to happen:
 * The discount is a percentage off the product's current price (including any active sale or other price adjustment already applied) -- it is not stacked as a separate line-item coupon
 * No "buy X of category Y" style tiers in this version -- quantity is counted per individual product
 
+= Enjoying this plugin? =
+If it helps your site, please consider [leaving an honest review on WordPress.org](https://wordpress.org/support/plugin/hdwebmobile-bulk-pricing/reviews/#new-post) -- it helps other WordPress users find it. Found a problem or have an idea? Please [open a support topic](https://wordpress.org/support/plugin/hdwebmobile-bulk-pricing/) first so it can be fixed.
+
 == Installation ==
 
 1. Upload the plugin files to the `/wp-content/plugins/hdwebmobile-bulk-pricing` directory, or install the plugin through the WordPress plugins screen directly.
