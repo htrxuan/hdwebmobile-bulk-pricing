@@ -12,7 +12,7 @@ A percentage off when a customer buys enough of the same product — "Buy 3+ sav
 
 ## Why this plugin exists
 
-"Quantity Dynamic Pricing & Bulk Discounts for WooCommerce" (≤ 4.0.3) shipped CVE-2025-31598 — stored XSS via an unescaped saved rule.
+The main risk in quantity-pricing plugins is stored XSS via an unescaped saved rule.
 
 Closed by construction:
 

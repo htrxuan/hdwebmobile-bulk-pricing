@@ -9,8 +9,8 @@ if (!defined('ABSPATH')) {
 /**
  * The only place quantity-discount tiers are ever written.
  *
- * CVE-2025-31598 (Stored XSS) in "Quantity Dynamic Pricing & Bulk Discounts for WooCommerce"
- * (<= 4.0.3): a rule's saved text was later rendered to storefront visitors without escaping.
+ * The risk this guards against: stored XSS, where a rule's saved text is later rendered to
+ * storefront visitors without escaping.
  *
  * This class closes that by construction:
  *   - save_tiers() is called from exactly one place (HDBP_Admin's settings-save handler),
